@@ -1,0 +1,147 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+div {
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 700px;
+}
+
+/* Header & Footer */
+header, footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #f1f5f9;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  border-bottom: none;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Blog Card */
+.blog-card {
+  background: white;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+}
+
+/* Blog Title */
+.blog-card h2 {
+  margin-top: 0;
+  color: #1e293b;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  background-color: #2563eb;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.blog-card button {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.blog-card button + button {
+  background-color: #ef4444;
+  color: white;
+}
+
+.user-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0f2fe;
+  border-radius: 8px;
+}
+
+.plan-card {
+  background-color: #fefce8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.status {
+  background-color: #e0f2fe;
+  color: #0f172a;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.status.error {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.notice {
+  font-style: italic;
+  color: #b45309;
+}
+
+.auth-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  max-width: 420px;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card button {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.link-button {
+  background: none;
+  color: #2563eb;
+  padding: 0;
+  text-decoration: underline;
+}
+
+/* Input & Textarea */
+input, textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
